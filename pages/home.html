@@ -17,19 +17,51 @@
    left: 0;
    bottom: 0;
    width: 100%;
-   height: 350px;
+   height: 400px;
    background-color:  rgb(38, 8, 66);
    margin-top: 0px;
    color: white;
    text-align: center;
     }
+    B{
+      transition: 0.5s;
+    }
+    .B:hover{
+      transform: scale(1.1);
+    }
+    .A{
+      transition: 0.5s;
+    }
+    .A:hover{
+      transform: scale(1.1);
+    }
+    .C{
+      transition: 0.5s;
+    }
+    .C:hover{
+      transform: scale(1.1);
+    }
+    .D{
+      transition: 0.5s;
+    }
+    .D:hover{
+      transform: scale(1.1);
+    }
+    .E{
+      transition: 0.5s;
+    }
+    .E:hover{
+      transform: scale(1.1);
+    }
+    
+    
+
     </style>
 </head>
 <body>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
-
 
     
     <nav class="navbar navbar-expand-lg fixed-top">
@@ -41,10 +73,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" style="color: azure; font-family:italic" aria-current="page" href="#">See & Do</a>
+                <a class="nav-link active" style="color: azure; font-family:italic" aria-current="page" href="#abc">See & Do</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"style="color: azure; font-family:italic" href="#">Plan your trip</a>
+                <a class="nav-link"style="color: azure; font-family:italic" href="#def">Plan your trip</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" style="color: azure; font-family:italic" href="#">Travel essentials</a>
@@ -53,10 +85,10 @@
                 <a class="nav-link disabled"style="color: azure; font-family:italic" aria-disabled="true">Saudi calender</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" style="color: azure; font-family:italic" aria-disabled="true">Experiences</a>
+                <a class="nav-link disabled"  style="color: azure; font-family:italic" aria-disabled="true">Experiences</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" style="color: azure; font-family:italic" aria-disabled="true">Saudi map</a>
+                <a class="nav-link disabled" style="color: azure; font-family:italic" aria-disabled="true" href="#ghi">Saudi map</a>
               </li>
             </ul>
           </div>
@@ -91,13 +123,13 @@
       </div>
       
 
-      <h1 style="margin-top: 100px; margin-right: 250px; text-align: center;">What to do in saudi?</h1>
+      <h1 style="margin-top: 50px;  text-align: center;">What to do in saudi?</h1>
       <div class="d-flex justify-content-evenly">
-      <div class="card " style="max-width: 540px; margin-right: 50px; margin-top: 100px; height: 300px;">
+        <div class="C">
+      <div class="card " style="max-width: 540px; margin-right: 50px; margin-top: 30px; height: 300px;" id="abc">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="C:\harshu\saudi img\activities-attractions.jpg" class="img-fluid rounded-start" style="height:300px;" alt="...">
-            
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -110,8 +142,11 @@
           </div>
         </div>
       </div>
+      </div>
+      
 
-      <div class="card mb-3" style="max-width: 540px; margin-right: 50px; margin-top: 100px;" >
+      <div class="B">
+     <div class="card mb-3" style="max-width: 540px; margin-right: 50px; margin-top: 30px;" id="def" >
         <div class="row g-0">
           <div class="col-md-4">
             <img src="C:\harshu\saudi img\experiences-tours.jpg" class="img-fluid rounded-start"style="height:300px;" alt="...">
@@ -127,82 +162,92 @@
         </div>
       </div>
     </div> 
+    </div>
 
-
+    <div class="D">
+<div class="pooja" id="ghi">
+    <h1 style="text-align: center; margin-top: 100px;">Map to visit popular spots im Arebia</h1>
+    <div class="d-flex justify-content-evenly mt-5" style="border: 5px solid black; margin: 250px; margin-bottom: 50px;">
+      <img src="c:\harshu\saudi img\saudi-arabia-map.jpg" style="width: 1000px; height: 500px;">
+    </div>
+    </div>
+    </div>
   
-
-    <div class="card mb-3 " style="max-width: 1500px; height:250px; background-color: rgb(38, 8, 66); color: azure; margin-top: 100px;">
+<div class="A">
+    <div class="card mb-3 " style="max-width: 1200px; height:200px; background-color: rgb(38, 8, 66); color: azure; margin-top: 100px;margin-left: 130px; ">
       <div class="row g-0">
         <div class="col-md-4">
-          <img src="C:\harshu\saudi img\3d-illustration-wallpaper-luxury-painting-riyadh-saudi-arabia_616652-2672.avif" class="img-fluid rounded-start" style="height: 250px; width: 1000px;" alt="...">
+          <img src="C:\harshu\saudi img\3d-illustration-wallpaper-luxury-painting-riyadh-saudi-arabia_616652-2672.avif" class="img-fluid rounded-start" style="height: 200px; width: 1000px; border-radius: 50px;" alt="...">
         </div>
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">breathtaking landscape</h5>
-            <p class="card-text">Discover all destination's <button type="button" class="btn btn-primary btn-lg" style="margin-top: 150px; color: white; background-color: rgb(69, 32, 103);">Explore</button></p>
+            <p class="card-text">Discover all destination's</p> <button type="button" class="btn btn-primary btn-lg" style=" color: white; background-color: rgb(69, 32, 103);">Explore</button>
             <p class="card-text"><small class="text-body-secondary"></small></p>
           </div>
         </div>
       </div>
     </div>
+    </div>
 
 
-    <h1 style="margin-top: 50px; margin-right: 250px; text-align: center;">Experience Saudie's culinary scene</h1>
-    <div class="card" style="max-width: 1100px; margin-top: 50px; margin-right: 50px; margin-left: 200px;" >
+
+    <h1 style="margin-top: 80px; margin-left: 90px; text-align: center;">Experience Saudie's culinary scene</h1>
+    <div class="A">
+    <div class="card" style="max-width: 1100px; margin-top: 30px; margin-right: 50px; margin-left: 180px; border-radius: 30px;" >
       <div class="row g-0">
         <div class="col-md-4">
-          <img src="C:\harshu\saudi img\saudi-coffee-beans.jpg" class="img-fluid rounded-start" style="height:400px;" alt="...">
+          <img src="C:\harshu\saudi img\saudi-coffee-beans.jpg" class="img-fluid rounded-start" style="height:405px;" alt="...">
           
         </div>
         <div class="col-md-8">
           <div class="card-body">
             <h3 class="card-title">Activities & Attraction</h3>
             <p class="card-text">Discover the Untemed wilderness of the Rub'Al Khali,Wander the bustling lance of Jeddhah's oldest souks,and dive among the technicolour reefs of the red Sea.</p>
-            <p class="card-text"><small class="text-body-secondary"></small> 
-               <button type="button" class="btn btn-primary btn-lg" style="margin-top: 80px; color: white; background-color:  rgb(38, 8, 66);">Explore</button></p>
+            <p class="card-text"><small class="text-body-secondary"></small>
+              <a href="C:\Users\hp\Desktop\project4\pages\sevices.html"> 
+               <button type="button" class="btn btn-primary btn-lg" style="margin-top: 220px; color: white; background-color:  rgb(38, 8, 66);">Explore</button></a></p>
           </div>
         </div>
       </div>
     </div>
+    </div>
+    
+
 
 
     <h1 style="margin-top: 100px; margin-right: 250px; text-align: center;">Saudi arebia cities and landscape</h1>
     <div class="d-flex justify-content-evenly">
-    <div class="card " style="max-width: 540px; margin-right: 50px; margin-top: 20px; height: 450px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="C:\harshu\saudi img\saudilandscapesone.jpg" class="img-fluid rounded-start" style="height:450px;" alt="...">
-          
-        </div>
-
-
-        <div class="col-md-8 mt-5">
-          <div class="card-body">
-            <h3 class="card-title"> Saudi arebia's cities and Landscapes</h3>
-            <p class="card-text"></p>
-            <p class="card-text">Using his unique experiences as a guide,Artist mouth alofi showcases Saudi cities and landscapes that highlight the beauty and wonder of the kingdom.</p>
-            <small class="text-body-secondary"> </small> 
-            <button type="button" class="btn btn-primary btn-lg" style="margin-top: 110px; color: white; background-color:  rgb(38, 8, 66);">Explore</button></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
+      <div class="A">
+    <div class="card" style="width: 18rem; margin-top: 50px;">
       <img src="C:\harshu\saudi img\IBRAHIM02_crop-375x210.webp" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">saudi photography</h5>
         <p class="card-text">Though Ibrahim Sarhan is an engineer by day,his goal experiences inspire his...</p>
-        <a href="#" class="btn btn-primary" style="margin-top: 90px; color: white; background-color:  rgb(38, 8, 66);">Explore</a>
+        <a href="#" class="btn btn-primary" style="margin-top: 100px; color: white; background-color:  rgb(38, 8, 66);">Explore</a>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    </div>
+    <div class="A">
+    <div class="card" style="width: 18rem; margin-top: 50px;">
       <img src="C:\harshu\saudi img\10instagram-worthysunsetspotsinsaudi_hero_crop-375x210.webp" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">10 beautiful spots in Saudi for sunsets</h5>
         <p class="card-text">One of the most breathtaking attraction of saudi are simple sunsets that highlight the...</p>
-        <a href="#" class="btn btn-primary" style="margin-top: 70px; color: white; background-color:  rgb(38, 8, 66);">Explore</a>
+        <a href="#" class="btn btn-primary" style="margin-top: 76px; color: white; background-color:  rgb(38, 8, 66);">Explore</a>
       </div>
+    </div>
+    </div>
+
+    <div class="A">
+    <div class="card" style="width: 18rem; height: 450px; margin-top: 50px;">
+      <img src="C:\Users\hp\Desktop\project4\images\DJI_0058-1.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Saudi arebia's cities and Landscapes</h5>
+        <p class="card-text">Using his unique experiences as a guide,Artist mouth alofi showcases Saudi cities and landscapes that highlight the beauty and wonder of the kingdom.</p>
+        <a href="#" class="btn btn-primary" style="margin-top: 30px; color: white; background-color:  rgb(38, 8, 66);">Explore</a>
+      </div>
+    </div>
     </div>
 
 
@@ -215,8 +260,10 @@
       <div class="card-img-overlay">
         
         <div class="d-flex justify-content-evenly mt-5">
+          <div class="A">
           <p class="card-text"></p>
         <h1 class="card-text" style="color: rgb(8, 23, 23); font-family:italic; text-align: start;">Welcome to<br>Arabia<small></small></h1>
+        </div>
         <div>
           <p class="card-text"><b>Seasons and events</b><br><br>REadh season<br> Jeddhah events calender<br> Diriyah season.</p>
           <p class="card-text"><small>Last updated 3 mins ago</small></p>
@@ -241,6 +288,7 @@
 
         <div class="footer">
           <p><b>More Info<b></p>
+            <hr>
           <a href=""></a>
           <div class="d-flex justify-content-evenly mt-5">
           <div class="abc" style="text-align: start; margin-left: 80px;">
@@ -259,17 +307,26 @@
             </div>
             <hr>
         
-        <div class="footercontainer" style="text-align: center;">
-        <div class="socialicons">
-          <p style="margin-right: 100px;">Connect with us.</p>
-          <a href=""><i class="fa-brands fa-facebook" style="border: 1px solid; border-radius: 50%; padding: 10px; color: white; background-color: black; margin-right: 5px;" ></i>
-            <a href=""><i class="fa-brands fa-instagram" style="border: 1px solid; border-radius: 50%; padding: 10px; color: white; background-color: black; margin-right: 5px;" ></i>
-              <a href=""><i class="fa-brands fa-twitter" style="border: 1px solid; border-radius: 50%; padding: 10px; color: white; background-color: black; margin-right: 5px;" ></i>
-                <a href=""><i class="fa-brands fa-whatsapp" style="border: 1px solid; border-radius: 50%; padding: 10px; color: white; background-color: black;" ></i>
-                  <a href=""><i class="fa-brands fa-linkedin" style="border: 1px solid; border-radius: 50%; padding: 10px; color: white; background-color: black; margin-right: 5px;" ></i>
-          <a href=""><i class="fa-brands fa-youtube" style="border: 1px solid; border-radius: 50%; padding: 10px; color: white; background-color: black; margin-right: 40px;" ></i>
             
+        <div class="footercontainer" style="text-align: center;">
+          <p style="margin-top: 20px;">connect with us</p>
+        <div class="socialicons" style="display: flex; margin-left: 600px; margin-top: 40px;">
+        
+          <a href="C:\Users\hp\Desktop\project4\pages\sevices.html">
+            <div class="A">
+          <a href=""><i class="fa-brands fa-facebook" style="border: 1px solid; border-radius: 50%; padding: 10px; color: white; background-color: black; margin-right: 5px;" ></i></a></div>
+          <div class="A">
+            <a href=""><i class="fa-brands fa-instagram" style="border: 1px solid; border-radius: 50%; padding: 10px; color: white; background-color: black; margin-right: 5px;" ></i></a></div>
+            <div class="A">
+              <a href=""><i class="fa-brands fa-twitter" style="border: 1px solid; border-radius: 50%; padding: 10px; color: white; background-color: black; margin-right: 5px;" ></i></div>
+                <div class="A">
+                <a href=""><i class="fa-brands fa-whatsapp" style="border: 1px solid; border-radius: 50%; padding: 10px; color: white; background-color: black;" ></i></div>
+                  <div class="A">
+                  <a href=""><i class="fa-brands fa-linkedin" style="border: 1px solid; border-radius: 50%; padding: 10px; color: white; background-color: black; margin-right: 5px;" ></i></div>
+                    <div class="A">  
+          <a href=""><i class="fa-brands fa-youtube" style="border: 1px solid; border-radius: 50%; padding: 10px; color: white; background-color: black; margin-right: 40px;" ></i></a>
           </a>
+        </div>
           </div>
         </div>
         </div>
